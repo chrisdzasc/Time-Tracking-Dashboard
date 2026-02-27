@@ -118,3 +118,55 @@ h1, h2, h3, h4, h5, h6 {
 html {
   font-size: 62.5%;
 }
+
+/*  =================================================
+    Typography Utilities
+    =================================================   */
+.text--p1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 5.6rem;
+    line-height: 6.6rem;
+    font-weight: 300;
+}
+
+.text--p2 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 4.0rem;
+    line-height: 4.7rem;
+    font-weight: 300;
+}
+
+.text--p3 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 3.2rem;
+    line-height: 3.8rem;
+    font-weight: 300;
+}
+
+.text--p4 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    font-weight: 300;
+}
+
+.text--p5-regular {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    font-weight: 400;
+}
+
+.text--p5-medium {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    font-weight: 500;
+}
+
+.text--p6 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    font-weight: 400;
+}
