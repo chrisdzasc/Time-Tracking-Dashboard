@@ -46,6 +46,12 @@
     --yellow: hsl(43, 84%, 65%);
 
     --grey: hsl(0, 0%, 85%);
+
+    --spacing-100: 0.8rem;
+    --spacing-200: 1.6rem;
+    --spacing-300: 2.4rem;
+    --spacing-400: 3.2rem;
+    --spacing-500: 4.0rem;
 }
 
 
