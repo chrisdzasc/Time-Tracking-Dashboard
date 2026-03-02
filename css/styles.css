@@ -170,3 +170,15 @@ html {
     line-height: 1.8rem;
     font-weight: 400;
 }
+
+/*  =================================================
+    Base Styles
+    =================================================   */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--navy-950);
+  color: var(--white);
+}
