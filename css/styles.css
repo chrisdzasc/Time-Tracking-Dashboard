@@ -242,3 +242,47 @@ body {
   cursor: pointer;
 }
 
+.activity-card {
+  position: relative;
+  overflow: hidden;
+  padding-top: 4.5rem;
+  border-radius: 1.5rem;
+}
+
+.activity-card__picture {
+  position: absolute;
+  top: -1rem;
+  right: 1.5rem;
+}
+
+.activity-card__info {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-100);
+  position: relative;
+  z-index: 1;
+  padding: var(--spacing-300);
+  background-color: var(--navy-900);
+  border-radius: 1.5rem;
+}
+
+.activity-card__top-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.activity-card__menu {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+}
+
+.activity-card__time {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.activity-card--work {
+  background-color: var(--orange);
+}
