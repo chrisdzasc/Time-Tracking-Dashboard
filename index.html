@@ -21,52 +21,46 @@
 </head>
 <body>
 
-  <main>
-    <section> <!-- Agregar el color azul de fondo-->
+  <main class="dashboard">
+    <section class="profile-card"> <!-- Agregar el color azul de fondo-->
       <div> 
-        <div> <!-- Agregar el color azul bajito -->
-          <div> <!-- Se le aplica el display flex y el acomodo -->
-            <img src="./images/image-jeremy.png" alt="Jeremy Robson">
+        <div class="profile-card__info"> <!-- Agregar el color azul bajito -->
+          <img class="profile-card__picture" src="./images/image-jeremy.png" alt="Jeremy Robson">
 
-            <div>
-              <p>Report for</p>
+          <div class="profile-card__container">
+            <p class="profile-card__text">Report for</p>
 
-              <h1>Jeremy Robson</h1>
-            </div>
+            <h1 class="profile-card__name">Jeremy Robson</h1>
           </div>
         </div>
 
-        <div>
-          <button>Daily</button>
+        <div class="profile-card__options">
+          <button class="profile-card__option">Daily</button>
 
-          <button>Weekly</button>
+          <button class="profile-card__option">Weekly</button>
 
-          <button>Monthly</button>
+          <button class="profile-card__option">Monthly</button>
         </div>
       </div>
     </section>
 
-    <section>
-      <div> <!-- Agregar el color naranja de fondo-->
+    <section class="activity-card activity-card--work"> <!-- Agregar el color naranja de fondo-->
+      <img class="activity-card__picture" src="./images/icon-work.svg" alt="">
 
-        <img src="./images/icon-work.svg" alt="">
+      <div class="activity-card__info"> <!-- Agregar el color azul de fondo-->
+        <div class="activity-card__top-row">
+          <h2 class="activity-card__title">Work</h2>
 
-        <div> <!-- Agregar el color azul de fondo-->
-          <div>
-            <h2>Work</h2>
+          <button class="activity-card__menu" aria-label="Menu"><img src="./images/icon-ellipsis.svg" alt=""></button>
+        </div>
 
-            <button aria-label="Menu"><img src="./images/icon-ellipsis.svg" alt=""></button>
-          </div>
+        <div class="activity-card__time">
+          <p class="activity-card__hours">32hrs</p>
 
-          <div>
-            <p>32hrs</p>
-
-            <p>Last Week - 36hrs</p>
-          </div>
+          <p class="activity-card__average">Last Week - 36hrs</p>
         </div>
       </div>
     </section>
-
   </main>
 
 </body>
