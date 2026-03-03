@@ -336,3 +336,18 @@ body {
   width: 7.2rem;
   height: 6.6rem;
 }
+
+/*  =================================================
+    Tablet Styles
+    =================================================   */
+@media (min-width: 768px) {
+  .dashboard {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    max-width: 61.2rem;
+  }
+
+  .profile-card {
+    grid-column: 1 / 4;
+  }
+}
