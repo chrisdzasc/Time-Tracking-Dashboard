@@ -245,9 +245,15 @@ body {
 .profile-card__option {
   border: none;
   padding: 0;
-  color: white;
+  color: var(--purple-500);
   background-color: transparent;
   cursor: pointer;
+  transition: color 0.2s ease-in-out;
+}
+
+.profile-card__option--active,
+.profile-card__option:hover {
+  color: var(--white);
 }
 
 .activity-card {
