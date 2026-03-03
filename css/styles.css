@@ -387,3 +387,13 @@ body {
     font-weight: 300;
   }
 }
+/*  =================================================
+    Desktop Styles
+    =================================================   */
+@media (min-width: 1440px) {
+  .dashboard {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    max-width: 111.6rem;
+  }
+}
