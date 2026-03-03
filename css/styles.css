@@ -297,3 +297,12 @@ body {
   width: 9rem;
   height: 9rem;
 }
+
+.activity-card--study {
+  background-color: var(--pink);
+}
+
+.activity-card__picture--study {
+  top: -0.5rem;
+  right: 2rem;
+}
