@@ -284,6 +284,13 @@ body {
   align-items: center;
 }
 
+.activity-card__hours {
+  font-family: 'Rubik', sans-serif;
+  font-size: 3.2rem;
+  line-height: 3.8rem;
+  font-weight: 300;
+}
+
 .activity-card--work {
   background-color: var(--orange);
 }
@@ -358,5 +365,20 @@ body {
   .profile-card__options {
     justify-content: space-evenly;
     padding-bottom: 3rem;
+  }
+
+  .activity-card__info {
+    gap: var(--spacing-200);
+  }
+
+  .activity-card__time {
+    flex-direction: column;
+    gap: var(--spacing-100);
+  }
+
+  .activity-card__hours {
+    font-size: 5.6rem;
+    line-height: 6.6rem;
+    font-weight: 300;
   }
 }
