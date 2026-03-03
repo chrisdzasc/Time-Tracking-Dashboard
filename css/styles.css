@@ -324,3 +324,14 @@ body {
   top: -0.8rem;
   right: 2rem;
 }
+
+.activity-card--self-care {
+  background-color: var(--yellow);
+}
+
+.activity-card__picture--self-care {
+  top: -0.8rem;
+  right: 2rem;
+  width: 7.2rem;
+  height: 6.6rem;
+}
