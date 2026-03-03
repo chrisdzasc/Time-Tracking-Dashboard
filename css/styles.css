@@ -306,3 +306,12 @@ body {
   top: -0.5rem;
   right: 2rem;
 }
+
+.activity-card--exercise {
+  background-color: var(--green);
+}
+
+.activity-card__picture--exercise {
+  top: 0;
+  right: 2rem;
+}
