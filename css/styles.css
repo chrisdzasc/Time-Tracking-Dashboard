@@ -315,3 +315,12 @@ body {
   top: 0;
   right: 2rem;
 }
+
+.activity-card--social {
+  background-color: var(--purple-700);
+}
+
+.activity-card__picture--social {
+  top: -0.8rem;
+  right: 2rem;
+}
