@@ -286,3 +286,14 @@ body {
 .activity-card--work {
   background-color: var(--orange);
 }
+
+.activity-card--play {
+  background-color: var(--blue);
+}
+
+.activity-card__picture--play {
+  top: -.5rem;
+  right: 2rem;
+  width: 9rem;
+  height: 9rem;
+}
