@@ -350,4 +350,13 @@ body {
   .profile-card {
     grid-column: 1 / 4;
   }
+
+  .profile-card__info {
+    justify-content: flex-start;
+  }
+
+  .profile-card__options {
+    justify-content: space-evenly;
+    padding-bottom: 3rem;
+  }
 }
