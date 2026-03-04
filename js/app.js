@@ -1,3 +1,15 @@
+let dashboardData = [];
+
+fetch('./js/data.json')
+    .then(response => { 
+        return response.json()
+    })
+    .then(data => {
+        dashboardData = data;
+        
+        weeklyActivity();
+    });
+
 const daily = document.querySelector('#daily');
 const weekly = document.querySelector('#weekly');
 const monthly = document.querySelector('#monthly');
@@ -26,23 +38,73 @@ function removeActiveClasses() {
 function dailyActivity() {
     removeActiveClasses();
     daily.classList.add("profile-card__option--active");
+
+    workCurrent.innerText = dashboardData[0].timeframes.daily.current;
+    workPrevious.innerText = dashboardData[0].timeframes.daily.previous;
+
+    playCurrent.innerText = dashboardData[1].timeframes.daily.current;
+    playPrevious.innerText = dashboardData[1].timeframes.daily.previous;
+
+    studyCurrent.innerText = dashboardData[2].timeframes.daily.current;
+    studyPrevious.innerText = dashboardData[2].timeframes.daily.previous;
+
+    exerciseCurrent.innerText = dashboardData[3].timeframes.daily.current;
+    exercisePrevious.innerText = dashboardData[3].timeframes.daily.previous;
+
+    socialCurrent.innerText = dashboardData[4].timeframes.daily.current;
+    socialPrevious.innerText = dashboardData[4].timeframes.daily.previous;
+
+    selfCareCurrent.innerText = dashboardData[5].timeframes.daily.current;
+    selfCarePrevious.innerText = dashboardData[5].timeframes.daily.previous;
+
 }
 
 function weeklyActivity() {
     removeActiveClasses();
     weekly.classList.add("profile-card__option--active");
+
+    workCurrent.innerText = dashboardData[0].timeframes.weekly.current;
+    workPrevious.innerText = dashboardData[0].timeframes.weekly.previous;
+
+    playCurrent.innerText = dashboardData[1].timeframes.weekly.current;
+    playPrevious.innerText = dashboardData[1].timeframes.weekly.previous;
+
+    studyCurrent.innerText = dashboardData[2].timeframes.weekly.current;
+    studyPrevious.innerText = dashboardData[2].timeframes.weekly.previous;
+
+    exerciseCurrent.innerText = dashboardData[3].timeframes.weekly.current;
+    exercisePrevious.innerText = dashboardData[3].timeframes.weekly.previous;
+
+    socialCurrent.innerText = dashboardData[4].timeframes.weekly.current;
+    socialPrevious.innerText = dashboardData[4].timeframes.weekly.previous;
+
+    selfCareCurrent.innerText = dashboardData[5].timeframes.weekly.current;
+    selfCarePrevious.innerText = dashboardData[5].timeframes.weekly.previous;
 }
 
 function monthlyActivity() {
     removeActiveClasses();
     monthly.classList.add("profile-card__option--active");
+
+    workCurrent.innerText = dashboardData[0].timeframes.monthly.current;
+    workPrevious.innerText = dashboardData[0].timeframes.monthly.previous;
+
+    playCurrent.innerText = dashboardData[1].timeframes.monthly.current;
+    playPrevious.innerText = dashboardData[1].timeframes.monthly.previous;
+
+    studyCurrent.innerText = dashboardData[2].timeframes.monthly.current;
+    studyPrevious.innerText = dashboardData[2].timeframes.monthly.previous;
+
+    exerciseCurrent.innerText = dashboardData[3].timeframes.monthly.current;
+    exercisePrevious.innerText = dashboardData[3].timeframes.monthly.previous;
+
+    socialCurrent.innerText = dashboardData[4].timeframes.monthly.current;
+    socialPrevious.innerText = dashboardData[4].timeframes.monthly.previous;
+
+    selfCareCurrent.innerText = dashboardData[5].timeframes.monthly.current;
+    selfCarePrevious.innerText = dashboardData[5].timeframes.monthly.previous;
 }
 
-/* 
-fetch('./js/data.json')
-    .then(response => response.json())
-    .then(data => console.log(data))
-*/
 
 daily.addEventListener("click", dailyActivity);
 
