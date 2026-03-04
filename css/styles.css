@@ -278,6 +278,11 @@ body {
   padding: var(--spacing-300);
   background-color: var(--navy-900);
   border-radius: 1.5rem;
+  transition: background-color .2s ease-in;
+}
+
+.activity-card__info:hover {
+  background-color: var(--navy-800);
 }
 
 .activity-card__top-row {
