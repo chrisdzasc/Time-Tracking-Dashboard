@@ -2,16 +2,27 @@ const daily = document.querySelector('#daily');
 const weekly = document.querySelector('#weekly');
 const monthly = document.querySelector('#monthly');
 
+const buttons = [daily, weekly, monthly];
+
+function removeActiveClasses() {
+    buttons.forEach(button => {
+        button.classList.remove("profile-card__option--active");
+    });
+}
+
 function dailyActivity() {
-    console.log("You have clicked the daily button");
+    removeActiveClasses();
+    daily.classList.add("profile-card__option--active");
 }
 
 function weeklyActivity() {
-    console.log("You have clicked the weekly button");
+    removeActiveClasses();
+    weekly.classList.add("profile-card__option--active");
 }
 
 function monthlyActivity() {
-    console.log("You have clicked the monthly button");
+    removeActiveClasses();
+    monthly.classList.add("profile-card__option--active");
 }
 
 /* 
