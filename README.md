@@ -1,6 +1,6 @@
 # ⏱️ Time Tracking Dashboard
 
-<video src="./assets/video/time-tracking-dashboard.mov" autoplay loop muted playsinline width="100%"></video>
+<video src="./assets/video/time-tracking-dashboard.mp4" autoplay loop muted playsinline width="100%"></video>
 
 A responsive dashboard layout featuring interactive timeframe toggles 🖱️, seamless CSS transitions ✨, and dynamic data fetching from a local JSON file 🗂️.
 
