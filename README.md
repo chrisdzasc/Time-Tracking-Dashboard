@@ -18,9 +18,9 @@ Key focus areas included building a CSS Grid architecture 🏗️ to manage layo
 
 | State 🎛️ | Mobile 📱 | Tablet 📲 | Desktop 💻 |
 | :--- | :--- | :--- | :--- |
-| **☀️ Daily** | <img src="" /> | <img src="" /> | <img src="" /> |
-| **🗓️ Weekly** | <img src="" /> | <img src="" /> | <img src="" /> |
-| **🌙 Monthly** | <img src="" /> | <img src="" /> | <img src="" /> |
+| **☀️ Daily** | <img src="./assets/screenshots/mobile/daily.png" /> | <img src="./assets/screenshots/tablet/daily.png" /> | <img src="./assets/screenshots/desktop/daily.png" /> |
+| **🗓️ Weekly** | <img src="./assets/screenshots/mobile/weekly.png" /> | <img src="./assets/screenshots/tablet/weekly.png" /> | <img src="./assets/screenshots/desktop/weekly.png" /> |
+| **🌙 Monthly** | <img src="./assets/screenshots/mobile/monthly.png" /> | <img src="./assets/screenshots/tablet/monthly.png" /> | <img src="./assets/screenshots/desktop/monthly.png" /> |
 
 ## 🎯 The Challenge
 
