@@ -63,4 +63,4 @@ The challenge was to build out this **dashboard** 📊 and get it looking as clo
 
 - 💼 LinkedIn - [Christian Diaz](https://www.linkedin.com/in/chris-diazasc/)
 - 👾 Frontend Mentor - [@chrisdzasc](https://www.frontendmentor.io/profile/chrisdzasc)
-- 🧩 Frontend Mentor Solution - []()
+- 🧩 Frontend Mentor Solution - [⏱️ Time Tracking Dashboard | CSS Grid & Fetch API ⚡](https://www.frontendmentor.io/solutions/-time-tracking-dashboard-css-grid-and-fetch-api-rL4xLkRjSt)
